@@ -1,8 +1,163 @@
 body {
-	background-color:black;
+	background-color:lightblue;
+}
+
+.myname {
+	text-align: center
+	font-size:200px;
+	font-family: serif;
+	font-style: bold;
+	color:black;
+	padding-top: 80px
+}
+
+.button {
+	margin-left: 150px
+}
+
+.selfintro {
+	text-align: left;
+	font-size: 30px;
+	font-family: serif;
+	padding-top: 70px
+}
+
+.list1 {
+	padding-bottom: 50px;
+}
+.childhood {
+	padding-bottom: 50px;
+}
+.list2 {
+	padding-bottom: 50px;
+}
+.boardingschool {
+	padding-bottom: 50px;
+}
+.list3 {
+	padding-bottom: 50px;
+}
+.volunteering {
+	padding-bottom: 50px;
+}
+.list4 {
+	padding-bottom: 50px;
+}
+.Nutella {
+	padding-bottom: 50px;
+}
+.list5 {
+	padding-bottom: 50px;
+}
+.hawaiian {
+	padding-bottom: 50px;
 }
 
 h2 {
-	color: Black;
-	margin-left: 20px;
+	text-align: left;
+	font-size:20px;
+	font-family: serif;
+	font-style: italic;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.funfacts {
+	font-size:30px;
+	font-family: serif;
+	font-style:bold;
+	padding-top: 70px
+}
+
+.facts {
+	font-size: 20px;
+	font-family: serif;
+}
+.img-intro {
+	width:250px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.img-childhood {
+	width:250px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.img-boardingschool {
+	width:250px;
+	padding-bottom:30px;
+}
+.img-volunteering {
+	width:250px;
+	padding-bottom: 30px;
+}
+.friends {
+	width:250px;
+	padding-bottom: 30px;
+}
+.friends2 {
+	width:250px;
+	padding-bottom: 30px;
+}
+.eva {
+	width:250px;
+	padding-bottom: 30px;
+}
+.sister {
+	width:250px;
+	padding-bottom: 30px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.aboutme {
+	width:500px;
+	padding-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+}
+ul {
+
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+ul li a{
+	color:navy;
+	padding:0 80px;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
